@@ -78,23 +78,48 @@ strcukBuild.age = 51
  */
 
 //MARK: Guard let & if let
-
-let number = "5"
-
-func convertIntIf(stringInput : String) -> Int{
-    if let myInt = Int(stringInput){
-        return myInt
-    }else {
-        return 0
-    }
-}
-func convertIntGuard(stringInput2 : String) -> Int{
-    guard let  myInt2 = Int(stringInput2) else {
-        return 0
-    }
-    return myInt2
-}
+/*
+ let number = "5"
  
-print(convertIntGuard(stringInput2: number))
-print(convertIntIf(stringInput: number))
+ func convertIntIf(stringInput : String) -> Int{
+ if let myInt = Int(stringInput){
+ return myInt
+ }else {
+ return 0
+ }
+ }
+ func convertIntGuard(stringInput2 : String) -> Int{
+ guard let  myInt2 = Int(stringInput2) else {
+ return 0
+ }
+ return myInt2
+ }
+ 
+ print(convertIntGuard(stringInput2: number))
+ print(convertIntIf(stringInput: number))
+ */
 
+//MARK: Switch Case
+
+let myNum = 11
+
+let myRemainder = myNum % 4
+print (myRemainder)
+if myRemainder == 1 {
+    print("it's 1")
+}else if myRemainder == 2 {
+    print("it's 2")
+}else if myRemainder == 3 {
+    print("it's 3")
+}
+
+switch myRemainder {
+case 1:
+    print("it's 1")
+case 2:
+    print("it's 2")
+case 3:
+    print("it's 3")
+default:
+    print("none of the above")
+}
