@@ -24,11 +24,12 @@ classBuild.age = 51
 strcukBuild.age = 51
 //print(strcukBuild.age)
 
+
 //MARK: REFERENCE & VALUE
 ///Reference : Beklemediğimiz sonucu veren yapı
 ///Value :  Beklediğinmiz sonucu veren yapı
 
-let copyOfClassBuild = classBuild
+/*let copyOfClassBuild = classBuild
 var copyOfStruckBuild = strcukBuild
 
 print(copyOfClassBuild.age)
@@ -42,3 +43,19 @@ print(copyOfStruckBuild.age)
 
 print(classBuild.age)
 print(strcukBuild.age)
+*/
+
+//Summery : Copy --> Same Object But New Reference --> 1 object 2 reference
+//Value type --> Struck
+//Refence type --> Class
+
+//MARK: FUNCTION & MUTATING FUNC
+
+print(classBuild.age)
+classBuild.happyBrithDay()
+print(classBuild.age)
+
+print(strcukBuild.age)
+strcukBuild.happyBirthDay()
+print(strcukBuild.age)
+

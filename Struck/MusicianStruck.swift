@@ -13,5 +13,10 @@ struct MusicianStruck{
     var age : Int
     var Instrument : String
     
+    
+    mutating func happyBirthDay(){
+        self.age += 1
+    }
+
 }
 

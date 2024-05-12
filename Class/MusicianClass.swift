@@ -19,4 +19,8 @@ class MusicianClass {
          
         
     }
+    
+    func happyBrithDay(){
+        self.age += 1
+    }
 }
