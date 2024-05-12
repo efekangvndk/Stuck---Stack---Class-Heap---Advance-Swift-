@@ -34,8 +34,8 @@ var copyOfStruckBuild = strcukBuild
 print(copyOfClassBuild.age)
 print(copyOfStruckBuild.age)
 
-copyOfClassBuild.age = 20
-copyOfStruckBuild.age = 20
+copyOfClassBuild.age = 21
+copyOfStruckBuild.age = 21
 
 print(copyOfClassBuild.age)
 print(copyOfStruckBuild.age)
